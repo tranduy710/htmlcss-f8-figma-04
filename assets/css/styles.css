@@ -9,8 +9,10 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: #fffaf5;
 }
 
+/* Common */
 h1,
 h2,
 h3,
@@ -26,4 +28,68 @@ select,
 button {
     font-size: inherit;
     font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    --height: 56px;
+    display: inline-block;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border-radius: 25px;
+    border: 1px solid rgba(0, 9, 88, 0.7);
+    border-radius: 99px;
+    color: #000958;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100%-48px);
+    margin: 0 auto;
+}
+/* Header */
+
+.header {
+  padding: 26px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link,
+.header-action__link {
+    padding: 8px 18px;
+    color: #5e6085;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.navbar__link:hover,
+.header-action__link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
+  }
+
+.header-action__btn {
+  min-width: 118px;
+  height: 50px;
+}
+
+.header-action__btn:hover {
+  opacity: 0.9;
 }
