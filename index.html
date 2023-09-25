@@ -4,10 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lucky</title>
-
         <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
-
         <!-- gg font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +15,6 @@
         />
         <!-- Css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
-
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
@@ -102,8 +99,12 @@
             <div class="container">
                 <div class="header__inner">
                     <!-- Logo -->
-                    <img src="./assets/img/logo.svg" alt="Lucy" class="logo" />
-
+                    <a href=""
+                        ><img
+                            src="./assets/img/logo.svg"
+                            alt="Lucy"
+                            class="logo"
+                    /></a>
                     <!-- Navbar -->
                     <nav class="navbar">
                         <ul class="navbar__list">
@@ -126,7 +127,6 @@
                             </li>
                         </ul>
                     </nav>
-
                     <!-- Header Action -->
                     <div class="header-action">
                         <a href="#!" class="header-action__link">Sign in</a>
@@ -135,7 +135,6 @@
                 </div>
             </div>
         </header>
-
         <!-- Hero -->
         <div class="hero">
             <div class="container">
@@ -148,7 +147,6 @@
                                 alt=""
                                 class="hero__img"
                             />
-
                             <!-- Decorators -->
                             <img
                                 src="./assets/img/decor-01.svg"
@@ -161,16 +159,16 @@
                                 class="hero__decor hero__decor-right"
                             />
                         </div>
-
                         <div class="hero__img-wrap-small hero__img-wrap">
                             <img
                                 src="./assets/img/pet-02.png"
                                 alt=""
+                                class="hero__img-small"
                                 class=""
                             />
                         </div>
 
-                        <span class="hero__list">
+                        <div class="hero__list">
                             <!-- Hero list item 1 -->
                             <div class="hero-list-item">
                                 <img
@@ -192,9 +190,7 @@
                                 </div>
                             </div>
 
-                            <span class="hero-list-item__separate">
-
-                            </span>
+                            <span class="hero-list-item__separate"> </span>
 
                             <!-- Hero list item 2 -->
                             <div class="hero-list-item">
@@ -220,7 +216,42 @@
                     </div>
 
                     <!-- Hero content -->
-                    <section class="hero__content"></section>
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            Established & Trusted Pet Care Service
+                        </h1>
+
+                        <p class="hero__desc">
+                            Discover a wide variety of Pawsitive services to
+                            choose from, including daycare, private walks,
+                            office duty and spa.
+                        </p>
+
+                        <div class="hero__row">
+                            <a href="#!" class="btn btn--primary hero__cta-btn">
+                                Book a met
+                                <span class="btn__icon">
+                                    <svg
+                                        width="5"
+                                        height="6"
+                                        viewBox="0 0 5 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                                            stroke="#FD5056"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#!" class="hero__cta-link"
+                                >Schedule a Call</a
+                            >
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
