@@ -314,6 +314,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    row-gap: 146px;
 }
 
 .about__media {
@@ -432,4 +433,17 @@ a {
     top: 150px;
     right: -71px;
     z-index: -1;
+}
+
+.about__img-wrap-bottom {
+    margin-left: 0;
+}
+
+.about__img-bottom {
+    width: 458px;
+
+}
+
+.about__img-wrap-bottom::after {
+    content: none;
 }
