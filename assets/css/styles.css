@@ -921,3 +921,47 @@ a {
     content: url("../icon/price-check.svg");
     margin-right: 14px;
 }
+
+/* Review */
+.review {
+    padding: 53px 0;
+}
+
+.review__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 44px;
+}
+
+.review__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1.5px solid #ffd1c4;
+    flex-shrink: 0;
+    background: transparent;
+    color: #ff5b2e;
+}
+
+.review__control:hover {
+    color: #fff;
+    background: #ff5b2e;
+    cursor: pointer;
+    border-color: #ff5b2e;
+}
+
+.review-item {
+    display: flex;
+}
+
+.review-item__media {
+    flex-shrink: 0;
+    width: 274px;
+}
+
+.review-item__img {
+    width: 100%;
+}
